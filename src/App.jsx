@@ -1,32 +1,11 @@
 import React from "react";
-import logoImg from './assets/images/logo.png';
 import './styles/App.css';
+import NavBar from "./components/NavBar/NavBar";
 
 class App extends React.Component {
   render() {
     return (
-      <header>
-        <nav id="navBar">
-          <div className="nav-brand">
-            <img src={logoImg} alt="" />
-            <h1>Space Flight News</h1>
-          </div>
-          <ul className="navList">
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">Trending</a>
-            </li>
-            <li>
-              <a href="#">Categories</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
+      <NavBar />
     )
   };
 }
