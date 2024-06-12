@@ -11,3 +11,13 @@ body {
 a {
     text-decoration: none;
 }
+
+section#articles {
+    margin: 4rem auto;
+    max-width: 1240px;
+    padding: 0 2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}
